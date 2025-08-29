@@ -1,4 +1,4 @@
-package training.iqgateway.controller;
+package training.admin.iqgateway.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-import training.iqgateway.dto.ProviderDTO;
-import training.iqgateway.dto.DoctorDTO.ReviewDTO;   // Or ProviderDTO.ReviewDTO if defined inside ProviderDTO
-import training.iqgateway.service.ProviderServiceUrl;
+import training.admin.iqgateway.dto.ProviderDTO;
+import training.admin.iqgateway.dto.DoctorDTO.ReviewDTO;
+import training.admin.iqgateway.service.ProviderServiceUrl;
 
 @RestController
 @RequestMapping("/admin/providers")

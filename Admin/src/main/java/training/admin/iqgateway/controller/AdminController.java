@@ -1,4 +1,4 @@
-package training.iqgateway.controller;
+package training.admin.iqgateway.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-import training.iqgateway.dto.DoctorDTO;
-import training.iqgateway.dto.DoctorDTO.ReviewDTO;
-import training.iqgateway.service.DoctorServiceUrl;
+import training.admin.iqgateway.dto.DoctorDTO;
+import training.admin.iqgateway.dto.DoctorDTO.ReviewDTO;
+import training.admin.iqgateway.service.DoctorServiceUrl;
 
 @RestController
 @RequestMapping("/admin/doctors") // This is your admin API base path

@@ -1,7 +1,7 @@
-package training.iqgateway.mapper;
+package training.admin.iqgateway.mapper;
 
-import training.iqgateway.dto.AdminDTO;
-import training.iqgateway.model.AdminEO;
+import training.admin.iqgateway.dto.AdminDTO;
+import training.admin.iqgateway.model.AdminEO;
 
 public class AdminMapper {
 	

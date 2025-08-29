@@ -1,4 +1,4 @@
-package training.iqgateway.dto;
+package training.admin.iqgateway.dto;
 
 import java.time.Instant;
 import java.util.List;
@@ -252,5 +252,37 @@ public class DoctorDTO {
         
         
     }
+
+
+
+	public void setHospitalName(String hospitalName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public void setHospitalLocation(String location) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public void setHospitalLat(double lat) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public void setHospitalLon(double lon) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
 
 }

@@ -1,4 +1,4 @@
-package training.iqgateway.dto;
+package training.admin.iqgateway.dto;
 
 public class AdminDTO {
 	

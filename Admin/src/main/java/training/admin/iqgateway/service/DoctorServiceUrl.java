@@ -1,4 +1,4 @@
-package training.iqgateway.service;
+package training.admin.iqgateway.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,10 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-
-
-import training.iqgateway.dto.DoctorDTO;
-import training.iqgateway.dto.DoctorDTO.ReviewDTO;
+import training.admin.iqgateway.dto.DoctorDTO;
+import training.admin.iqgateway.dto.DoctorDTO.ReviewDTO;
 
 @Service
 public class DoctorServiceUrl {
